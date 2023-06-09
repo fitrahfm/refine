@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[51992],{51992:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/inferencer/src/index.tsx","description":"Returns a list of keys that are likely to be fieldable.","displayName":"getFieldableKeys","props":{},"generatedAt":1686333765940}')}}]);

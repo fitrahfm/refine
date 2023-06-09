@@ -19,6 +19,7 @@ function CardContainer({ href, children }) {
                 "flex flex-col",
                 "gap-4",
                 "hover:no-underline",
+                "not-prose",
             )}
         >
             {children}

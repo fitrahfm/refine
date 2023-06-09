@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[82338],{82338:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/ui-tests/src/index.tsx","description":"","displayName":"pageForgotPasswordTests","props":{},"generatedAt":1686333107631}')}}]);

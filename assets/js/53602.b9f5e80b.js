@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[53602],{53602:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/simple-rest/src/index.ts","description":"","displayName":"generateSort","props":{},"generatedAt":1686334780731}')}}]);

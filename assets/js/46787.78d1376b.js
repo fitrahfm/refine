@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[46787],{46787:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/antd/src/index.tsx","description":"","displayName":"getValueFromEvent","props":{},"generatedAt":1686335762714}')}}]);

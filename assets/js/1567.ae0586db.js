@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[1567],{1567:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/antd/src/index.tsx","description":"","displayName":"PageHeader","props":{},"generatedAt":1686334755341}')}}]);

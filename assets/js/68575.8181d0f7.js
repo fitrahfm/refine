@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[68575],{68575:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/graphql/src/index.ts","description":"","displayName":"generateSort","props":{},"generatedAt":1686333086349}')}}]);

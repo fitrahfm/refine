@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[25417],{25417:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/antd/src/index.tsx","description":"","displayName":"Select","props":{},"generatedAt":1670573340509}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[37630],{37630:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/medusa/src/index.ts","description":"","displayName":"authProvider","props":{},"generatedAt":1670573357069}')}}]);

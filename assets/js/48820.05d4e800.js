@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[48820],{48820:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/react-router-v6/src/index.ts","description":"The parameters that were parsed from the URL path.","displayName":"Params","props":{},"generatedAt":1670573367915}')}}]);

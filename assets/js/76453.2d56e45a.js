@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[76453],{76453:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/inferencer/src/index.tsx","description":"Returns the component name based on the resource name and inferencer type.","displayName":"componentName","props":{},"generatedAt":1686569040440}')}}]);

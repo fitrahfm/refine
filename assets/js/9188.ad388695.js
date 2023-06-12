@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[9188],{9188:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/react-router/src/routerComponent.tsx","description":"","displayName":"RouterComponent","props":{},"generatedAt":1686560345382}')}}]);

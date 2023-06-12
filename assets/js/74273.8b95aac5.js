@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[74273],{74273:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/codemod/src/index.ts","description":"","displayName":"runTransform","props":{},"generatedAt":1670573341261}')}}]);

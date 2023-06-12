@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[30801],{30801:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/remix/src/useParams.ts","description":"","displayName":"composeParams","props":{},"generatedAt":1670573369098}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[76356],{76356:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/core/src/index.tsx","description":"","displayName":"createTreeView","props":{},"generatedAt":1686577173603}')}}]);

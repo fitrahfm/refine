@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[85993],{85993:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/nextjs-router/src/useParams.ts","description":"","displayName":"composeParams","props":{},"generatedAt":1670237561852}')}}]);

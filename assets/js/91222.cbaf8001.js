@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[91222],{91222:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/kbar/src/index.tsx","description":"returns deep matches only when a search query is present","displayName":"useMatches","props":{},"generatedAt":1686577185160}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[87511],{87511:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/inferencer/src/index.tsx","description":"Removes the relation suffix from a string.","displayName":"removeRelationSuffix","props":{},"generatedAt":1686577185838}')}}]);

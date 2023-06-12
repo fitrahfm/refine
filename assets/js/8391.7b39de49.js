@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[8391],{8391:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/react-table/src/index.ts","description":"","displayName":"getPaginationRowModel","props":{},"generatedAt":1670573366380}')}}]);

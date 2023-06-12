@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[72546],{72546:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/remix/src/useParams.ts","description":"","displayName":"lastActionIndex","props":{},"generatedAt":1670573369098}')}}]);

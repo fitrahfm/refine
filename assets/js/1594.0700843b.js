@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[1594],{1594:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/airtable/src/index.ts","description":"","displayName":"generateSort","props":{},"generatedAt":1686335769077}')}}]);

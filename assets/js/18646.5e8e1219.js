@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[18646],{18646:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/core/src/index.tsx","description":"","displayName":"handleUseParams","props":{},"generatedAt":1686335764536}')}}]);

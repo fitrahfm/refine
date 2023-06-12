@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[92790],{92790:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/inferencer/src/index.tsx","description":"This helper will prettify the string.","displayName":"prettyString","props":{},"generatedAt":1686335774454}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[71137],{71137:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/supabase/src/index.ts","description":"Creates a new Supabase Client.","displayName":"__type","props":{},"generatedAt":1670573371302}')}}]);

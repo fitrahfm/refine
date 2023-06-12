@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[1397],{1397:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/mui/src/index.tsx","description":"Get the amount of visible columns.","displayName":"visibleGridColumnsLengthSelector","props":{},"generatedAt":1670573362542}')}}]);

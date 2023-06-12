@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[16150],{16150:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/mantine/src/index.tsx","description":"","displayName":"getGroupedOptions","props":{},"generatedAt":1670573356109}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[43312],{78988:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/nextjs-router/src/index.ts","description":"","displayName":"handleRefineParams","props":{},"generatedAt":1670573363287}')}}]);

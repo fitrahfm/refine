@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[44367],{44367:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/kbar/src/index.tsx","description":"","displayName":"KBarSearch","props":{},"generatedAt":1670573352255}')}}]);

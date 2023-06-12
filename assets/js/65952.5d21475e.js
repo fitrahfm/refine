@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[65952],{65952:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/mui/src/index.tsx","description":"TODO: Differentiate community and pro value and interface","displayName":"DATA_GRID_DEFAULT_SLOTS_COMPONENTS","props":{},"generatedAt":1670573362542}')}}]);

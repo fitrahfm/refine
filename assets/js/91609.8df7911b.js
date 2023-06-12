@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[91609],{91609:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/mui/src/index.tsx","description":"Get the amount of pages needed to display all the rows if the pagination is enabled","displayName":"gridPageCountSelector","props":{},"generatedAt":1670573362542}')}}]);

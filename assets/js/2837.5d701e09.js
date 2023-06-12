@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[2837],{2837:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/react-hook-form/src/index.ts","description":"Clear the entire form errors.","displayName":"UseFormClearErrors","props":{},"generatedAt":1670573363899}')}}]);

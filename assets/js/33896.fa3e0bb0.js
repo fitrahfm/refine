@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[33896],{33896:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/mui/src/index.tsx","description":"Get the amount of rows accessible after the filtering process.","displayName":"gridVisibleRowCountSelector","props":{},"generatedAt":1670573362542}')}}]);

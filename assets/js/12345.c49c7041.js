@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[12345],{12345:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/mui/src/index.tsx","description":"","displayName":"getMenuItemUtilityClass","props":{},"generatedAt":1670573362542}')}}]);

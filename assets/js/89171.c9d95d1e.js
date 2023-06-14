@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[89171],{89171:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/graphql/src/index.ts","description":"Send a batch of GraphQL Document to the GraphQL server for exectuion.","displayName":"batchRequests","props":{},"generatedAt":1670573345119}')}}]);

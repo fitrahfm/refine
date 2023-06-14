@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[158],{158:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/mui/src/index.tsx","description":"All color-schemes that the application has","displayName":"SupportedColorScheme","props":{},"generatedAt":1670573362542}')}}]);

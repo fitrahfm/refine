@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[64159],{64159:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/mui/src/index.tsx","description":"","displayName":"getDrawerUtilityClass","props":{},"generatedAt":1670573362542}')}}]);

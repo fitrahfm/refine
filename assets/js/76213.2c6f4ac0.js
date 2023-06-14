@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[76213],{76213:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/react-hook-form/src/index.ts","description":"Trigger field or form validation","displayName":"UseFormTrigger","props":{},"generatedAt":1670573363899}')}}]);

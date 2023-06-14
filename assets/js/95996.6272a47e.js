@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[95996],{95996:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/react-router-v6/src/index.ts","description":"A <Link> wrapper that knows if it\'s \\"active\\" or not.","displayName":"NavLink","props":{},"generatedAt":1670573367915}')}}]);

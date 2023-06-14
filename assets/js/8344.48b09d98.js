@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[8344],{7929:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/chakra-ui/src/index.tsx","description":"","displayName":"useMenuItem","props":{},"generatedAt":1670573338408}')}}]);

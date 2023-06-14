@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[7001],{7001:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/react-router-v6/src/index.ts","description":"Performs pattern matching on a URL pathname and returns information about\\nthe match.","displayName":"matchPath","props":{},"generatedAt":1670573367914}')}}]);

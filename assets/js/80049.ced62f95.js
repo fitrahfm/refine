@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[80049],{80049:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/ui-tests/src/index.tsx","description":"","displayName":"buttonDeleteTests","props":{},"generatedAt":1686729406190}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[44567],{44567:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/mui/src/index.tsx","description":"Get the field of each column.","displayName":"gridColumnFieldsSelector","props":{},"generatedAt":1670573362542}')}}]);

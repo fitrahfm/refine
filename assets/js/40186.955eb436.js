@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[40186],{40186:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/hasura/src/index.ts","description":"Send a GraphQL Query to the GraphQL server for execution.","displayName":"rawRequest","props":{},"generatedAt":1670573351330}')}}]);

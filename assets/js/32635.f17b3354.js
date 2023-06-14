@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[32635],{32635:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/react-router-v6/src/index.ts","description":"Returns a path with params interpolated.","displayName":"generatePath","props":{},"generatedAt":1670573367914}')}}]);

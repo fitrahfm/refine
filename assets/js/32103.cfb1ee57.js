@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[32103],{32103:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/mantine/src/index.tsx","description":"","displayName":"isElement","props":{},"generatedAt":1670573356109}')}}]);

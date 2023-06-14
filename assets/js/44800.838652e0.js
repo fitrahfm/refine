@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[44800],{44800:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/cli/src/index.ts","description":"","displayName":"getImports","props":{},"generatedAt":1670573333917}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[11300],{11300:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/graphql/src/index.ts","description":"GraphQL Client.","displayName":"GraphQLClient","props":{},"generatedAt":1670573345119}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[95250],{95250:e=>{e.exports=JSON.parse('{"filePath":"/Users/omer/Projects/refine/packages/react-router-v6/src/index.ts","description":"A URL search string, beginning with a ?.","displayName":"Search","props":{},"generatedAt":1670573367915}')}}]);

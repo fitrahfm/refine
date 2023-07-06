@@ -10,38 +10,6 @@ Auth provider is an object that contains methods to handle authentication and ac
 
 You can use any third-party authentication service like [Auth0, Okta, etc.](#examples) or your own custom methods while creating an auth provider from scratch.
 
-> For more information on how you can create your own data providers, refer to the [Create a Data Provider tutorial&#8594][create-auth-provider-tutorial]
-
-## Usage
-
-To use `authProvider` in **refine**, just pass it to the `<Refine />` component.
-
-```tsx title="App.tsx"
-import { Refine } from "@refinedev/core";
-import dataProvider from "@refinedev/simple-rest";
-
-// highlight-next-line
-import authProvider from "./auth-provider";
-
-const App = () => {
-    return (
-        <Refine
-            // highlight-next-line
-            authProvider={authProvider}
-            dataProvider={dataProvider("https://api.fake-rest.refine.dev")}
-        >
-            {/* ... */}
-        </Refine>
-    );
-};
-```
-
-## Examples
-
-<AuthProviderExamplesLinks/>
-
-## Methods
-
 An `authProvider` includes the following methods:
 
 ```tsx
@@ -113,34 +81,113 @@ You can return any type of data from the `getPermission` and `getIdentity` metho
 ---
 
 :::info-tip
-**refine** consumes these methods using the [authorization hooks](#hooks-and-components), which are used for authorization operations like login, logout, catching **HTTP** errors, etc.
+**refine** consumes these methods using the [authentication hooks](#hooks-and-components), which are used for authentication operations like login, logout, catching **HTTP** errors, etc.
 :::
+
+## Usage
+
+To use `authProvider` in **refine**, just pass it to the `<Refine />` component.
+
+```tsx title="App.tsx"
+import { Refine } from "@refinedev/core";
+import dataProvider from "@refinedev/simple-rest";
+
+// highlight-next-line
+import authProvider from "./auth-provider";
+
+const App = () => {
+    return (
+        <Refine
+            // highlight-next-line
+            authProvider={authProvider}
+            dataProvider={dataProvider("https://api.fake-rest.refine.dev")}
+        >
+            {/* ... */}
+        </Refine>
+    );
+};
+```
+
+## Examples
+
+<AuthProviderExamplesLinks/>
+
+## Methods
 
 ## Required Methods
 
 ### login <PropTag required />
 
-`login` method is used to authenticate users.
+`login` method can be used to authenticate users. [`useLogin`][use-login] hook's `mutate` function will call this method. It expects to return a resolved promise with the following type:
 
-It can be called with the [`useLogin`][use-login] hook
+```ts
+type AuthActionResponse = {
+    success: boolean;
+    redirectTo?: string;
+    error?: Error;
+    [key: string]: unknown;
+};
+```
+
+-   `success`: Determines whether the operation is successful or not.
+-   `redirectTo`: The path of the page that the user will be redirected to after the operation is completed.
+-   `error`: An object containing details about any errors encountered during the operation.
+-   `[key: string]`: Any additional data you wish to include in the response, keyed by a string identifier.
 
 ### check <PropTag required />
 
-`check` method is used to check if the user is authenticated.
+The `check` method is used to check if the user is authenticated. It is internally called when the user navigates to a page that requires authentication. This method expects to return a resolved promise with the following type:
 
-It can be called with the [`useIsAuthenticated`][use-is-authenticated] hook
+```ts
+type CheckResponse = {
+    authenticated: boolean;
+    redirectTo?: string;
+    logout?: boolean;
+    error?: Error;
+};
+```
+
+-   `authenticated`: A boolean value indicating whether the user is authenticated or not.
+-   `redirectTo`: A string value indicating the URL to redirect to if authentication is required.
+-   `logout`: A boolean value indicating whether the user should be logged out.
+-   `error`: An Error object representing any errors that may have occurred during the check.
+    It can be called with the [`useIsAuthenticated`][use-is-authenticated] hook
 
 ### logout <PropTag required />
 
-`logout` method is used to log out users.
+he `logout` method is used to log out users. It expects to return a resolved promise with the following type:
 
-It can be called with the [`useLogout`][use-logout] hook
+```ts
+type AuthActionResponse = {
+    success: boolean;
+    redirectTo?: string;
+    error?: Error;
+    [key: string]: unknown;
+};
+```
+
+-   `success`: Determines whether the operation is successful or not.
+-   `redirectTo`: The path of the page that the user will be redirected to after the operation is completed.
+-   `error`: An object containing details about any errors encountered during the operation.
+-   `[key: string]`: Any additional data you wish to include in the response, keyed by a string identifier.
 
 ### onError <PropTag required />
 
 `onError` method is called when you get an error response from the API. You can create your own business logic to handle the error such as refreshing the token, logging out the user, etc.
 
-It can be called with the [`useOnError`][use-on-error] hook
+`onError` method expects to return a Promise with the following type:
+
+```ts
+type OnErrorResponse = {
+    redirectTo?: string;
+    logout?: boolean;
+    error?: Error;
+};
+```
+
+-   `redirectTo`: If has a value, the app will be redirected to the given URL.
+-   `logout`: If is `true`, useOnError calls the `logout` method.
+-   `error`: An Error object representing any errors that may have occurred during the operation.
 
 ## Optional Methods
 
@@ -220,17 +267,17 @@ const App = () => {
 
 ### Properties
 
-| Property                                          | Description                               | Success condition                     |
-| ------------------------------------------------- | ----------------------------------------- | ------------------------------------- |
-| login <div className=" required">Required</div>   | Logs user in                              | Auth confirms login                   |
-| logout <div className=" required">Required</div>  | Logs user out                             | Auth confirms logout                  |
-| check <div className=" required">Required</div>   | Checks credentials on each route changes  | Authentication still persist          |
-| onError <div className=" required">Required</div> | Checks if a dataProvider returns an error | Data provider doesn't return an error |
-| getPermissions                                    | Can be use to get user credentials        | Authorization roles accepted          |
-| getIdentity                                       | Can be use to get user identity           | User identity available to return     |
-| register                                          | Register user                             | Auth confirms register                |
-| forgotPassword                                    | Can be use to get password reset          | Auth confirms forgot password         |
-| updatePassword                                    | Can be use to get update password         | Auth confirms update password         |
+| Property                                          | Description                                                    | Success condition                 |
+| ------------------------------------------------- | -------------------------------------------------------------- | --------------------------------- |
+| login <div className=" required">Required</div>   | Logs user in                                                   | Auth confirms login               |
+| logout <div className=" required">Required</div>  | Logs user out                                                  | Auth confirms logout              |
+| check <div className=" required">Required</div>   | Checks credentials on each route changes                       | Authentication still persist      |
+| onError <div className=" required">Required</div> | Triggered if any of the auth provider methods returns an error | Resolved promise                  |
+| getPermissions                                    | Can be use to get user credentials                             | Authorization roles accepted      |
+| getIdentity                                       | Can be use to get user identity                                | User identity available to return |
+| register                                          | Register user                                                  | Auth confirms register            |
+| forgotPassword                                    | Can be use to get password reset                               | Auth confirms forgot password     |
+| updatePassword                                    | Can be use to get update password                              | Auth confirms update password     |
 
 ## FAQ
 

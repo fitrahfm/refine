@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[98293],{98293:e=>{e.exports=JSON.parse('{"filePath":"/home/runner/work/refine/refine/packages/nestjs-query-graphql/src/index.ts","description":"","displayName":"liveProvider","props":{},"generatedAt":1694048917465}')}}]);
